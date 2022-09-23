@@ -414,7 +414,7 @@ input
 
 # create qualities of width 50
 set.seed(10)
-input_q <- random_qual(c(30,40), slength = 6, swidth = 50, 
+input_q <- random_qual(slength = 6, swidth = 50, c(30,40), 
 encod = "Sanger")
 
 # create names
